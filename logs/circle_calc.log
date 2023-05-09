@@ -1,0 +1,16 @@
+2023-05-09 11:55:19,856 =============================================================
+2023-05-09 11:55:19,857 =============================================================
+2023-05-09 11:55:19,857 Today is 2023-05-09 at 11:55 AM
+2023-05-09 11:55:19,870 This file is running on: nt Windows 10
+2023-05-09 11:55:19,870 The Python version is: 3.10.2
+2023-05-09 11:55:19,870 The active conda environment is:  None
+2023-05-09 11:55:19,870 The active pip environment is:    None
+2023-05-09 11:55:19,870 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python310
+2023-05-09 11:55:19,870 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-01-getting-started
+2023-05-09 11:55:19,892 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-01-getting-started
+2023-05-09 11:55:19,892 =============================================================
+2023-05-09 11:55:19,892 =============================================================
+2023-05-09 11:55:22,832 The area of a circle with radius 8.0 is 201.06192982974676.
+2023-05-09 11:55:22,832 Eww... that's a lot of decimal places - tmi!
+2023-05-09 11:55:22,832 The area of a circle with radius 8.0 is 201.06.
+2023-05-09 11:55:22,832 Much better!

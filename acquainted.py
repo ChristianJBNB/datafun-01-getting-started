@@ -42,19 +42,19 @@ logger,logname = setup_logger(__file__)
 # Try some string, integer, float, and boolean (True/False) variables
 # TODO: Customize these by changing the values 
 
-name = "John Doe"
-state = "California"
+name = "Christian Jackson"
+state = "Missouri"
 country = "USA"
 
-pet_count = 1
-skill_count = 24
+pet_count = 2
+skill_count = 25
 
-temperature_f = 81.5
-pet_weight_lbs = 12.5
+temperature_f = 78
+pet_weight_lbs = 17
 
-has_dog = False
-likes_analytics = True
-likes_python = True
+has_dog = True
+likes_analytics = False
+likes_python = False
 
 # Log some information using f-strings (formatted strings)
 # f-strings are a convenient way to embed variables in strings

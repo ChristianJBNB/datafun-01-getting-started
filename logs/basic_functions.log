@@ -1,0 +1,19 @@
+2023-05-09 11:54:40,868 =============================================================
+2023-05-09 11:54:40,868 =============================================================
+2023-05-09 11:54:40,868 Today is 2023-05-09 at 11:54 AM
+2023-05-09 11:54:40,884 This file is running on: nt Windows 10
+2023-05-09 11:54:40,884 The Python version is: 3.10.2
+2023-05-09 11:54:40,884 The active conda environment is:  None
+2023-05-09 11:54:40,884 The active pip environment is:    None
+2023-05-09 11:54:40,884 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python310
+2023-05-09 11:54:40,884 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-01-getting-started
+2023-05-09 11:54:40,900 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-01-getting-started
+2023-05-09 11:54:40,900 =============================================================
+2023-05-09 11:54:40,900 =============================================================
+2023-05-09 11:54:40,900 Functions url = https://docs.python.org/3/library/functions.html
+2023-05-09 11:54:40,900 number_list = [1, 2, 3, 4, 5]
+2023-05-09 11:54:40,900 len(number_list) = 5
+2023-05-09 11:54:40,900 min(number_list) = 1
+2023-05-09 11:54:40,900 max(number_list) = 5
+2023-05-09 11:54:46,962 message = Hello Christian jackson!
+2023-05-09 11:54:49,505 response = y
