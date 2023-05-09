@@ -30,21 +30,25 @@ logger,logname = setup_logger(__file__)
 # Declare some variables 
 # TODO: Try changing the values of these variables
 # TODO: Add some new variables and calculate the area of a rectangle ()
-triangle_base = 10
-triangle_height = 5
+triangle_base = 12
+triangle_height = 9
 i = 50
 j = 20
-a = 1.1
-b = 2.2
-c = 3.3
+a = 4.8
+b = 6.9
+c = 11.2
+rectangle_base = 10
+rectangle_height = 25
 
 # Try some operators (multiply, divide, add, subtract)
 triangle_area = triangle_base * triangle_height / 2
+rectangle_area = rectangle_base * rectangle_height
 sum = a + b
 difference = i - j
 
 # Log some information using f-strings (formatted strings)
 logger.info(f"Given base={triangle_base} and height={triangle_height}, the triangle area = {triangle_area}")
+logger.info(f"Given base={rectangle_base} and height={rectangle_height}, the rectangle area = {rectangle_area}")
 logger.info(f"Given a={a} and b={b}, the sum = {sum}")
 logger.info(f"Given i={i} and j={j}, the difference = {difference}")
 

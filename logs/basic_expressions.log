@@ -1,15 +1,16 @@
-2023-05-09 11:53:48,071 =============================================================
-2023-05-09 11:53:48,071 =============================================================
-2023-05-09 11:53:48,071 Today is 2023-05-09 at 11:53 AM
-2023-05-09 11:53:48,083 This file is running on: nt Windows 10
-2023-05-09 11:53:48,083 The Python version is: 3.10.2
-2023-05-09 11:53:48,083 The active conda environment is:  None
-2023-05-09 11:53:48,083 The active pip environment is:    None
-2023-05-09 11:53:48,083 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python310
-2023-05-09 11:53:48,099 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-01-getting-started
-2023-05-09 11:53:48,099 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-01-getting-started
-2023-05-09 11:53:48,099 =============================================================
-2023-05-09 11:53:48,099 =============================================================
-2023-05-09 11:53:48,099 Given base=10 and height=5, the triangle area = 25.0
-2023-05-09 11:53:48,099 Given a=1.1 and b=2.2, the sum = 3.3000000000000003
-2023-05-09 11:53:48,099 Given i=50 and j=20, the difference = 30
+2023-05-09 13:16:49,490 =============================================================
+2023-05-09 13:16:49,490 =============================================================
+2023-05-09 13:16:49,490 Today is 2023-05-09 at 01:16 PM
+2023-05-09 13:16:49,503 This file is running on: nt Windows 10
+2023-05-09 13:16:49,504 The Python version is: 3.10.2
+2023-05-09 13:16:49,504 The active conda environment is:  None
+2023-05-09 13:16:49,504 The active pip environment is:    None
+2023-05-09 13:16:49,504 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python310
+2023-05-09 13:16:49,504 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-01-getting-started
+2023-05-09 13:16:49,504 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-01-getting-started
+2023-05-09 13:16:49,504 =============================================================
+2023-05-09 13:16:49,504 =============================================================
+2023-05-09 13:16:49,504 Given base=12 and height=9, the triangle area = 54.0
+2023-05-09 13:16:49,504 Given base=10 and height=25, the rectangle area = 250
+2023-05-09 13:16:49,504 Given a=4.8 and b=6.9, the sum = 11.7
+2023-05-09 13:16:49,504 Given i=50 and j=20, the difference = 30
