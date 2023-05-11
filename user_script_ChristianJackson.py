@@ -26,6 +26,11 @@ avg_ppg_input1 = input("\nEnter the average points per game of the first NBA Pla
 avg_ppg_input2 = input("\nEnter the average points per game of the second NBA Player: ")
 avg_ppg_input3 = input("\nEnter the average points per game of the third NBA Player: ")
 
+#Logging the converted inputs and converting them to only have one decimal point
+logger.info(f"Here was the input for the first NBA player: {avg_ppg_input1}")
+logger.info(f"Here was the input for the second NBA player: {avg_ppg_input2}")
+logger.info(f"Here was the input for the third NBA player: {avg_ppg_input3}")
+
 #Conversion of input from a string to an int or a float
 avg_ppg1 = float(avg_ppg_input1)
 avg_ppg2 = float(avg_ppg_input2)

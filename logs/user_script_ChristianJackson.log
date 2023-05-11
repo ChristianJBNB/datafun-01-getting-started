@@ -1,27 +1,30 @@
-2023-05-11 15:00:44,553 =============================================================
-2023-05-11 15:00:44,553 =============================================================
-2023-05-11 15:00:44,553 Today is 2023-05-11 at 03:00 PM
-2023-05-11 15:00:44,569 This file is running on: nt Windows 10
-2023-05-11 15:00:44,569 The Python version is: 3.11.3
-2023-05-11 15:00:44,569 The active conda environment is:  None
-2023-05-11 15:00:44,569 The active pip environment is:    None
-2023-05-11 15:00:44,569 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python311
-2023-05-11 15:00:44,569 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-01-getting-started
-2023-05-11 15:00:44,569 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-01-getting-started
-2023-05-11 15:00:44,569 =============================================================
-2023-05-11 15:00:44,569 =============================================================
-2023-05-11 15:00:48,575 
-The sum of the three NBA players points per game combined is: 42.0
-2023-05-11 15:00:48,575 
-The average points per game of the three NBA Players combined is: 14.0
-2023-05-11 15:00:48,575 
-The product of the three NBA players points per game combined is: 2470.0
-2023-05-11 15:00:48,575 
+2023-05-11 15:12:44,852 =============================================================
+2023-05-11 15:12:44,852 =============================================================
+2023-05-11 15:12:44,853 Today is 2023-05-11 at 03:12 PM
+2023-05-11 15:12:44,867 This file is running on: nt Windows 10
+2023-05-11 15:12:44,867 The Python version is: 3.11.3
+2023-05-11 15:12:44,867 The active conda environment is:  None
+2023-05-11 15:12:44,867 The active pip environment is:    None
+2023-05-11 15:12:44,867 The active environment path is:   C:\Users\cjack\AppData\Local\Programs\Python\Python311
+2023-05-11 15:12:44,867 The current working directory is: C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-01-getting-started
+2023-05-11 15:12:44,867 This source file is in:           C:\Users\cjack\Documents\GitHub\data-analytics-fund\datafun-01-getting-started
+2023-05-11 15:12:44,867 =============================================================
+2023-05-11 15:12:44,867 =============================================================
+2023-05-11 15:12:54,739 Here was the input for the first NBA player: 19.666632
+2023-05-11 15:12:54,739 Here was the input for the second NBA player: 14.968479864
+2023-05-11 15:12:54,739 Here was the input for the third NBA player: 10
+2023-05-11 15:12:54,739 
+The sum of the three NBA players points per game combined is: 44.6
+2023-05-11 15:12:54,739 
+The average points per game of the three NBA Players combined is: 14.9
+2023-05-11 15:12:54,739 
+The product of the three NBA players points per game combined is: 2943.8
+2023-05-11 15:12:54,739 
 The least/smallest amount of average points per game is: 10.0
-2023-05-11 15:00:48,575 
-The most/largest amount of average points per game is: 19.0
-2023-05-11 15:00:48,575 
-The range of points per game by the NBA players is:  10.0 - 19.0
-2023-05-11 15:00:48,575 Averaging exactly 10 points a game is pretty average for the NBA
-2023-05-11 15:00:48,575 Better luck next time
-2023-05-11 15:00:48,575 Not bad, not bad
+2023-05-11 15:12:54,739 
+The most/largest amount of average points per game is: 19.7
+2023-05-11 15:12:54,739 
+The range of points per game by the NBA players is:  10.0 - 19.7
+2023-05-11 15:12:54,741 Averaging exactly 10 points a game is pretty average for the NBA
+2023-05-11 15:12:54,741 Better luck next time
+2023-05-11 15:12:54,741 Not bad, not bad
