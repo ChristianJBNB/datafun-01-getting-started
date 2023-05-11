@@ -1,54 +1,23 @@
 """
 
-Purpose: Calculate the area of a circle.
+Purpose: Project 1, Writing Scripts to collect discriptive data
 
 Author: Christian Jackson
 
-This script illustrates importing modules and using constants.
+This is the first project for the class and it focuses on the basics of Python
 
-It illustrates the built-in function round().
+First we collect 3 values using user input from the terminal
 
-When we install Python, it comes with the Python standard library.
-Nearly all scripts will import at least one module from the standard library.
+Second we create useful output using the input we collected to determine things such as sum, smallest, etc
 
-We can install additional, third-party modules using pip.
-We'll do that later. 
-
-All scripts in this repository use only the standard library.
-
-@uses math module for pi constant
+Third we create conditional statements that give different responses based on the manpulated data that we recieved
+Based on the manipulated data, different responses happen
 
 """
 import math  
 
 from util_datafun_logger import setup_logger
 logger, logname = setup_logger(__file__)
-
-"""# Use the math module's constant for pi
-pi = math.pi
-
-# get the radius from the user - input result is always a string
-# Use \n to add a blank new line to the terminal before we ask for input
-radius_string = input("\nEnter the radius of a circle: ")
-
-# convert the radius_string to a number
-radius = float(radius_string)
-
-# calculate the area using the numeric value (not the string)
-area = pi * radius**2
-
-# log the results
-logger.info(f"The area of a circle with radius {radius} is {area}.")
-logger.info("Eww... that's a lot of decimal places - tmi!")
-
-
-# round the area to two decimal places
-area = round(area, 2)
-
-# log the results
-logger.info(f"The area of a circle with radius {radius} is {area}.")
-logger.info("Much better!")
-"""
 
 #Part 1- Project 1
 
@@ -64,30 +33,54 @@ avg_ppg3 = float(avg_ppg_input3)
 
 #Part 2- Project 1
 
+#Creation of List 
+avg_ppg_list = [avg_ppg1,avg_ppg2,avg_ppg3]
+
 #Using the three values, print useful (well-labeled) output (use f-strings!)
 
 #Sum
 sum = avg_ppg1 + avg_ppg2 + avg_ppg3
-print(f"\nThe sum of the three NBA players points per game combined is: {sum:.1f}")
+logger.info(f"\nThe sum of the three NBA players points per game combined is: {sum:.1f}")
 
 #Average
-average = sum/3
-print(f"\nThe average points per game of the three NBA Players combined is: {average:.1f}")
+average = sum/len(avg_ppg_list)
+logger.info(f"\nThe average points per game of the three NBA Players combined is: {average:.1f}")
 
 #Product
 product = avg_ppg1 * avg_ppg2 * avg_ppg3
-print(f"\nThe product of the three NBA players points per game combined is: {product:.1f}")
+logger.info(f"\nThe product of the three NBA players points per game combined is: {product:.1f}")
 
 #Smallest
 smallest = min(avg_ppg1, avg_ppg2, avg_ppg3)
-print(f"\nThe least/smallest amount of average points per game is: {smallest:.1f}")
+logger.info(f"\nThe least/smallest amount of average points per game is: {smallest:.1f}")
 
 #Largest
 largest = max(avg_ppg1, avg_ppg2, avg_ppg3)
-print(f"\nThe most/largest amount of average points per game is: {largest:.1f}")
+logger.info(f"\nThe most/largest amount of average points per game is: {largest:.1f}")
 
 #Range
-print(f"\nThe range of points per game by the NBA players is:  {smallest:.1f} - {largest:.1f}")
+logger.info(f"\nThe range of points per game by the NBA players is:  {smallest:.1f} - {largest:.1f}")
+
+#Part 3 - Project 1
+
+#Conditional Statements
+
+if smallest < 10:
+    logger.info("Averaging less than 5 points a game is pretty bad for the NBA")
+elif smallest == 10 :
+    logger.info("Averaging exactly 10 points a game is pretty average for the NBA")
+else:
+    logger.info("Averaging more than 10 points a game is really good for the NBA")
+
+if average >= 20:
+    logger.info("Those three NBA players can really score the ball well")
+else:
+    logger.info("Better luck next time")
+
+if sum < 25:
+    logger.info("Thats pretty low, might want to get those numbers up")
+else:
+    logger.info("Not bad, not bad")
 
 # Use built-in open() function to read log file and print it to the terminal
 with open(logname, 'r') as file_wrapper:
